@@ -6,7 +6,7 @@ function Calendar() {
 
   return (
     <section>
-      <div className='flex justify-between gap-5 p-[8px] border border-[#ebebeb] rounded-lg'>
+      <div className='flex justify-between p-[8px] border border-[#ebebeb] rounded-lg'>
         {days.map((day, index) => (
           <ButtonTab key={index} text={day} />
         ))}

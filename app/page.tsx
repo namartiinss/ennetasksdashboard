@@ -1,8 +1,9 @@
-// import Image from "next/image";
-// import Logo from "@/public/image/logo.svg"
+import LoginPage from "./login/page";
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <LoginPage />
+    </div>
   );
 }

@@ -1,8 +1,8 @@
-import React from 'react'
 import Sidebar from './Sidebar'
 import Board from './Board'
 
 function Dashboard() {
+
   return (
     <div className='flex bg-[#F3F3F3] p-8 gap-8'>
       <Sidebar />

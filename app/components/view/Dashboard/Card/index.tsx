@@ -19,7 +19,7 @@ function Card({dayColor} : CardProps) {
     const bgColor = cardsColorsDays[dayColor]
 
   return (
-    <div className='h-[200px] w-[140px] flex flex-col  p-2 gap-7 rounded-lg' style={{backgroundColor: bgColor}}>
+    <div className='flex flex-col  p-2 gap-7 rounded-lg' style={{backgroundColor: bgColor}}>
         <span>08/06</span>
 
         <span>Lorem Ipsum<br />Estudos

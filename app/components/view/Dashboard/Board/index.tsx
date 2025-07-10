@@ -10,7 +10,7 @@ function Board() {
             <div>
                 <Navbar labelButtonNav={"Criar tarefa"} />
             </div>
-            <section className='flex flex-col overflow-x-auto w-full m-auto gap-10'>
+            <section className='flex flex-col overflow-x-auto w-full m-auto gap-8'>
                 <Calendar />
                 <Tasks />
             </section>
