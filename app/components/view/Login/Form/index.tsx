@@ -26,7 +26,6 @@ function FormLogin() {
   });
 
   const onSubmit = (data: LoginData) => {
-    console.log("Dados do login:", data);
     //Criar rota para o prisma
     route.push("/dashboard")
   };

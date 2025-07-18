@@ -1,3 +1,4 @@
+
 import { Clock } from 'lucide-react'
 import React from 'react'
 
@@ -20,7 +21,6 @@ function Card({dayColor} : CardProps) {
 
   return (
     <div className='flex flex-col  p-2 gap-7 rounded-lg' style={{backgroundColor: bgColor}}>
-        <span>08/06</span>
 
         <span>Lorem Ipsum<br />Estudos
         </span>

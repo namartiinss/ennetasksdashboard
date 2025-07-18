@@ -1,7 +1,14 @@
 import React from 'react'
 import Card from '../Card'
+import { DadosTarefas } from '../types'
 
-function Tasks() {
+interface TasksProps {
+    tarefas: DadosTarefas[]
+}
+
+function Tasks({tarefas} : TasksProps) {
+    console.log(tarefas)
+
   return (
     <div>
         <div className='grid grid-cols-7 gap-2 p-2 rounded-lg border border-[#ebebeb] w-full '>
